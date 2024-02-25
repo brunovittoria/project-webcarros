@@ -1,0 +1,55 @@
+RODAR BACK + FRONT: npm run dev
+
+#----------------FRONTEND------------------#
+
+1° Instalar VITE
+2° Limpar pastas e reduzir codigos
+3° Instalar depedendencias:
+
+npm install -D tailwindcss
+
+Iniciar tailwindcss: 
+https://tailwindcss.com/docs/guides/vite 
+
+
+npm install react-router-dom localforage match-sorter sort-by
+npm install react-icons
+
+
+4° Criar pastas das paginas e componentes (Olhar o figma file para se basear na criacao dos folders)
+5° Configurar rotas no app.js e main.js
+6° Começamos a estrutura e estilizar nossos componentes, como o HEADER
+7° Criamos nosso container, que basicamente serao para padronizar o design das paginas e sobre tudo para fazer com que o header fique bem alinhado.
+8° Criamos a estrutura e estilos do nosso component HOME
+9° Construindo pagina de login com useRef(Uncontrolled) ou seja, sera pego o valor nao de cada vez que voce digitar mas somente no fim
+
+usando REACT-HOOK FORM + SCHEMA VALIDATORS
+npm install react-hook-form 
+npm install @hookform/resolvers
+npm install zod
+
+10° Configurar login + register page
+
+#----------------BACKEND------------------#
+
+1° Cria pasta serve e rodar:
+
+npm init -y
+npm i express mongoose cors nodemon jsonwebtoken cookie-parser dotenv
+
+Inserir SCRIPT no package.json: 
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+},
+
+Inserir SCRIPT no package.json para que o EXPRESS entenda quando fizermos IMPORT:
+"type": "module",
+
+
+3° Criar estrutura PASTAS de backend
+
+2° Conectar ao DB
+
+3° Utilizar o Concurrently pra rodar o projeto front e back somente com um comando.
+
