@@ -35,7 +35,7 @@ npm install zod
 1° Cria pasta serve e rodar:
 
 npm init -y
-npm i express mongoose cors nodemon jsonwebtoken cookie-parser dotenv
+npm i express mongoose cors nodemon jsonwebtoken cookie-parser dotenv bcrypt
 
 Inserir SCRIPT no package.json: 
 "scripts": {
