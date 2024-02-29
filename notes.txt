@@ -53,5 +53,11 @@ Inserir SCRIPT no package.json para que o EXPRESS entenda quando fizermos IMPORT
 
 3° Utilizar o Concurrently pra rodar o projeto front e back somente com um comando.
 
-4° Vamos criar os modelos para serem chamados corretamente pelo backend
+4° Criar rotas + Pasta services pra conectar com rotas do BE pro FE
+
+5° Vamos criar os modelos para serem chamados corretamente pelo backend
+
+6° Devemos criar middleware suplementares
+
+7° Fazer testes das rotas
 
